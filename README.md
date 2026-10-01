@@ -60,4 +60,4 @@ Both timing paths use CUDA events with 30 warmups, seven groups of 200 submissio
 
 ## Attribution
 
-Developed with Codex assistance. Kernel source is original to this project; CUDA and PyTorch provide the runtime and reference operations. This is an initial implementation milestone in a broader GPU inference portfolio. Framework operator registration, analysis of memory transactions, vectorized access and controlled benchmark ordering remain future work. No RTX 2060 or other-architecture validation has been executed.
+Kernel source is original to this project; CUDA and PyTorch provide the runtime and reference operations. This is an initial implementation milestone in a broader GPU inference portfolio. Framework operator registration, analysis of memory transactions, vectorized access and controlled benchmark ordering remain future work. No RTX 2060 or other-architecture validation has been executed.
