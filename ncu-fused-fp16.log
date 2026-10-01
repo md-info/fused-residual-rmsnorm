@@ -1,0 +1,78 @@
+==PROF== Connected to process 2259 (/content/native)
+==PROF== Profiling "fused" - 0 (1/1): 0%....50%....100% - 9 passes
+PASS dtype=1 rows=1024 width=4096 variant=0 max_abs=0.000488281
+==PROF== Disconnected from process 2259
+[2259] native@127.0.0.1
+  void fused<__half, 256>(const T1 *, const T1 *, const T1 *, T1 *, int, float) (1024, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.5
+    Section: GPU Speed Of Light Throughput
+    ----------------------- ----------- ------------
+    Metric Name             Metric Unit Metric Value
+    ----------------------- ----------- ------------
+    DRAM Frequency                  Ghz         4.84
+    SM Frequency                    Mhz       585.05
+    Elapsed Cycles                cycle       87,811
+    Memory Throughput                 %        69.03
+    DRAM Throughput                   %        69.03
+    Duration                         us       150.08
+    L1/TEX Cache Throughput           %        53.65
+    L2 Cache Throughput               %        30.12
+    SM Active Cycles              cycle    82,521.52
+    Compute (SM) Throughput           %        50.22
+    ----------------------- ----------- ------------
+
+    OPT   Memory is more heavily utilized than Compute: Look at the Memory Workload Analysis section to identify the    
+          DRAM bottleneck. Check memory replay (coalescing) metrics to make sure you're efficiently utilizing the       
+          bytes transferred. Also consider whether it is possible to do more work per memory access (kernel fusion) or  
+          whether there are values you can (re)compute.                                                                 
+
+    Section: Launch Statistics
+    -------------------------------- --------------- ---------------
+    Metric Name                          Metric Unit    Metric Value
+    -------------------------------- --------------- ---------------
+    Block Size                                                   256
+    Function Cache Configuration                     CachePreferNone
+    Grid Size                                                  1,024
+    Registers Per Thread             register/thread              51
+    Shared Memory Configuration Size           Kbyte           32.77
+    Driver Shared Memory Per Block        byte/block               0
+    Dynamic Shared Memory Per Block       byte/block               0
+    Static Shared Memory Per Block        byte/block              36
+    # SMs                                         SM              40
+    Stack Size                                                 1,024
+    Threads                                   thread         262,144
+    # TPCs                                                        20
+    Enabled TPC IDs                                              all
+    Uses Green Context                                             0
+    Waves Per SM                                                6.40
+    -------------------------------- --------------- ---------------
+
+    Section: Occupancy
+    ------------------------------- ----------- ------------
+    Metric Name                     Metric Unit Metric Value
+    ------------------------------- ----------- ------------
+    Block Limit SM                        block           16
+    Block Limit Registers                 block            4
+    Block Limit Shared Mem                block          128
+    Block Limit Warps                     block            4
+    Theoretical Active Warps per SM        warp           32
+    Theoretical Occupancy                     %          100
+    Achieved Occupancy                        %        96.56
+    Achieved Active Warps Per SM           warp        30.90
+    ------------------------------- ----------- ------------
+
+    Section: GPU and Memory Workload Distribution
+    -------------------------- ----------- ------------
+    Metric Name                Metric Unit Metric Value
+    -------------------------- ----------- ------------
+    Average DRAM Active Cycles       cycle      501,498
+    Total DRAM Elapsed Cycles        cycle    5,812,224
+    Average L1 Active Cycles         cycle    82,521.52
+    Total L1 Elapsed Cycles          cycle    3,421,216
+    Average L2 Active Cycles         cycle   121,934.66
+    Total L2 Elapsed Cycles          cycle    4,105,568
+    Average SM Active Cycles         cycle    82,521.52
+    Total SM Elapsed Cycles          cycle    3,421,216
+    Average SMSP Active Cycles       cycle    82,126.04
+    Total SMSP Elapsed Cycles        cycle   13,684,864
+    -------------------------- ----------- ------------
+

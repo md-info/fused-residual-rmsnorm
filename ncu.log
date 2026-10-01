@@ -1,0 +1,193 @@
+==PROF== Connected to process 1803 (/content/native)
+==PROF== Profiling "fused" - 0 (1/1): 0%....50%....100% - 9 passes
+PASS dtype=0 rows=3 width=1 variant=0 max_abs=5.96046e-08
+PASS dtype=0 rows=3 width=1 variant=1 max_abs=5.96046e-08
+PASS dtype=0 rows=3 width=1 variant=2 max_abs=5.96046e-08
+PASS dtype=1 rows=3 width=1 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=1 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=1 variant=2 max_abs=0
+PASS dtype=0 rows=3 width=7 variant=0 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=7 variant=1 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=7 variant=2 max_abs=1.19209e-07
+PASS dtype=1 rows=3 width=7 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=7 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=7 variant=2 max_abs=0
+PASS dtype=0 rows=3 width=31 variant=0 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=31 variant=1 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=31 variant=2 max_abs=1.19209e-07
+PASS dtype=1 rows=3 width=31 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=31 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=31 variant=2 max_abs=0
+PASS dtype=0 rows=3 width=32 variant=0 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=32 variant=1 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=32 variant=2 max_abs=1.19209e-07
+PASS dtype=1 rows=3 width=32 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=32 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=32 variant=2 max_abs=0
+PASS dtype=0 rows=3 width=33 variant=0 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=33 variant=1 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=33 variant=2 max_abs=1.19209e-07
+PASS dtype=1 rows=3 width=33 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=33 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=33 variant=2 max_abs=0
+PASS dtype=0 rows=3 width=127 variant=0 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=127 variant=1 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=127 variant=2 max_abs=1.19209e-07
+PASS dtype=1 rows=3 width=127 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=127 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=127 variant=2 max_abs=0
+PASS dtype=0 rows=3 width=128 variant=0 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=128 variant=1 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=128 variant=2 max_abs=1.19209e-07
+PASS dtype=1 rows=3 width=128 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=128 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=128 variant=2 max_abs=0
+PASS dtype=0 rows=3 width=129 variant=0 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=129 variant=1 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=129 variant=2 max_abs=1.19209e-07
+PASS dtype=1 rows=3 width=129 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=129 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=129 variant=2 max_abs=0
+PASS dtype=0 rows=3 width=255 variant=0 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=255 variant=1 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=255 variant=2 max_abs=1.19209e-07
+PASS dtype=1 rows=3 width=255 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=255 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=255 variant=2 max_abs=0
+PASS dtype=0 rows=3 width=256 variant=0 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=256 variant=1 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=256 variant=2 max_abs=1.19209e-07
+PASS dtype=1 rows=3 width=256 variant=0 max_abs=0.000976562
+PASS dtype=1 rows=3 width=256 variant=1 max_abs=0.000976562
+PASS dtype=1 rows=3 width=256 variant=2 max_abs=0.000976562
+PASS dtype=0 rows=3 width=257 variant=0 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=257 variant=1 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=257 variant=2 max_abs=1.19209e-07
+PASS dtype=1 rows=3 width=257 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=257 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=257 variant=2 max_abs=0
+PASS dtype=0 rows=3 width=1023 variant=0 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=1023 variant=1 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=1023 variant=2 max_abs=1.19209e-07
+PASS dtype=1 rows=3 width=1023 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=1023 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=1023 variant=2 max_abs=0
+PASS dtype=0 rows=3 width=1024 variant=0 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=1024 variant=1 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=1024 variant=2 max_abs=1.19209e-07
+PASS dtype=1 rows=3 width=1024 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=1024 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=1024 variant=2 max_abs=0
+PASS dtype=0 rows=3 width=1025 variant=0 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=1025 variant=1 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=1025 variant=2 max_abs=1.19209e-07
+PASS dtype=1 rows=3 width=1025 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=1025 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=1025 variant=2 max_abs=0
+PASS dtype=0 rows=3 width=4096 variant=0 max_abs=2.38419e-07
+PASS dtype=0 rows=3 width=4096 variant=1 max_abs=2.38419e-07
+PASS dtype=0 rows=3 width=4096 variant=2 max_abs=2.38419e-07
+PASS dtype=1 rows=3 width=4096 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=4096 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=4096 variant=2 max_abs=0
+PASS dtype=0 rows=3 width=4099 variant=0 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=4099 variant=1 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=4099 variant=2 max_abs=1.19209e-07
+PASS dtype=1 rows=3 width=4099 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=4099 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=4099 variant=2 max_abs=0
+PASS dtype=0 rows=3 width=8192 variant=0 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=8192 variant=1 max_abs=1.19209e-07
+PASS dtype=0 rows=3 width=8192 variant=2 max_abs=1.19209e-07
+PASS dtype=1 rows=3 width=8192 variant=0 max_abs=0
+PASS dtype=1 rows=3 width=8192 variant=1 max_abs=0
+PASS dtype=1 rows=3 width=8192 variant=2 max_abs=0
+PASS native_checks=102
+==PROF== Disconnected from process 1803
+[1803] native@127.0.0.1
+  void fused<float, 256>(const T1 *, const T1 *, const T1 *, T1 *, int, float) (3, 1, 1)x(256, 1, 1), Context 1, Stream 7, Device 0, CC 7.5
+    Section: GPU Speed Of Light Throughput
+    ----------------------- ----------- ------------
+    Metric Name             Metric Unit Metric Value
+    ----------------------- ----------- ------------
+    DRAM Frequency                  Ghz         4.88
+    SM Frequency                    Mhz       576.84
+    Elapsed Cycles                cycle        3,268
+    Memory Throughput                 %         1.35
+    DRAM Throughput                   %         0.84
+    Duration                         us         5.66
+    L1/TEX Cache Throughput           %         7.31
+    L2 Cache Throughput               %         1.35
+    SM Active Cycles              cycle       158.03
+    Compute (SM) Throughput           %         0.35
+    ----------------------- ----------- ------------
+
+    OPT   This kernel grid is too small to fill the available resources on this device, resulting in only 0.0 full      
+          waves across all SMs. Look at Launch Statistics for more details.                                             
+
+    Section: Launch Statistics
+    -------------------------------- --------------- ---------------
+    Metric Name                          Metric Unit    Metric Value
+    -------------------------------- --------------- ---------------
+    Block Size                                                   256
+    Function Cache Configuration                     CachePreferNone
+    Grid Size                                                      3
+    Registers Per Thread             register/thread              52
+    Shared Memory Configuration Size           Kbyte           32.77
+    Driver Shared Memory Per Block        byte/block               0
+    Dynamic Shared Memory Per Block       byte/block               0
+    Static Shared Memory Per Block        byte/block              36
+    # SMs                                         SM              40
+    Stack Size                                                 1,024
+    Threads                                   thread             768
+    # TPCs                                                        20
+    Enabled TPC IDs                                              all
+    Uses Green Context                                             0
+    Waves Per SM                                                0.02
+    -------------------------------- --------------- ---------------
+
+    OPT   Est. Speedup: 92.5%                                                                                           
+          The grid for this launch is configured to execute only 3 blocks, which is less than the GPU's 40              
+          multiprocessors. This can underutilize some multiprocessors. If you do not intend to execute this kernel      
+          concurrently with other workloads, consider reducing the block size to have at least one block per            
+          multiprocessor or increase the size of the grid to fully utilize the available hardware resources. See the    
+          Hardware Model (https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html#metrics-hw-model)            
+          description for more details on launch configurations.                                                        
+
+    Section: Occupancy
+    ------------------------------- ----------- ------------
+    Metric Name                     Metric Unit Metric Value
+    ------------------------------- ----------- ------------
+    Block Limit SM                        block           16
+    Block Limit Registers                 block            4
+    Block Limit Shared Mem                block          128
+    Block Limit Warps                     block            4
+    Theoretical Active Warps per SM        warp           32
+    Theoretical Occupancy                     %          100
+    Achieved Occupancy                        %        20.37
+    Achieved Active Warps Per SM           warp         6.52
+    ------------------------------- ----------- ------------
+
+    OPT   Est. Local Speedup: 79.63%                                                                                    
+          The difference between calculated theoretical (100.0%) and measured achieved occupancy (20.4%) can be the     
+          result of warp scheduling overheads or workload imbalances during the kernel execution. Load imbalances can   
+          occur between warps within a block as well as across blocks of the same kernel. See the CUDA Best Practices   
+          Guide (https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html#occupancy) for more details on     
+          optimizing occupancy.                                                                                         
+
+    Section: GPU and Memory Workload Distribution
+    -------------------------- ----------- ------------
+    Metric Name                Metric Unit Metric Value
+    -------------------------- ----------- ------------
+    Average DRAM Active Cycles       cycle          232
+    Total DRAM Elapsed Cycles        cycle      221,184
+    Average L1 Active Cycles         cycle       158.03
+    Total L1 Elapsed Cycles          cycle      130,840
+    Average L2 Active Cycles         cycle       277.19
+    Total L2 Elapsed Cycles          cycle      152,832
+    Average SM Active Cycles         cycle       158.03
+    Total SM Elapsed Cycles          cycle      130,840
+    Average SMSP Active Cycles       cycle       132.32
+    Total SMSP Elapsed Cycles        cycle      523,360
+    -------------------------- ----------- ------------
+
